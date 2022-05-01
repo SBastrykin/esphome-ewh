@@ -7,8 +7,8 @@ logger:
   baud_rate: 0
 
 uart:
-  tx_pin: RX
-  rx_pin: TX
+  tx_pin: TX
+  rx_pin: RX
   baud_rate: 9600
 
 api:
