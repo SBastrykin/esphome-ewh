@@ -182,9 +182,9 @@ void ElectroluxWaterHeater::send_packet_(const PacketType packet_req_type, const
 }
 
 bool ElectroluxWaterHeater::read_packet_check_(const uint32_t actual, const uint32_t expected) const {
-  if (expected == actual) {
+ // if (expected == actual) {
     return true;
-  }
+ // }
   ESP_LOGW(TAG, "Invalid packet size, expected: %02X, actual: %02X", expected, actual);
   return false;
 }
