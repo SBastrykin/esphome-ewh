@@ -29,7 +29,7 @@ ClimateTraits EWHClimate::traits() {
   });
 
   traits.set_supported_custom_presets({
-      PRESET_MODE1, PRESET_MODE2, PRESET_MODE3, PRESET_NO_FROST,
+      PRESET_MODE1, PRESET_MODE2
       // PRESET_TIMER,
   });
 
